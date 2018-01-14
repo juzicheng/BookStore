@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{$DIR_CSS}/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="{$DIR_CSS}/bootstrap-theme.css" type="text/css">
+    <link rel="stylesheet" href="{$DIR_CSS}/loader.css" type="text/css">
+    <link rel="stylesheet" href="{$DIR_CSS}/common.css" type="text/css">
+    <!--<link rel="stylesheet" href="{$DIR_CSS}/homestyle.css" type="text/css">-->
+    <link rel="stylesheet" href="{$DIR_CSS}/homestyle.css" type="text/css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="{$DIR_CSS}/homestyle-s.css" type="text/css" media="screen and (max-width: 767px)">
+    <title>Book Store</title>
+
+</head>
+
+<body>
+
+
+<!--小屏幕菜单-->
+
+<div id="mobile-menu" class="mobile-nav hidden-sm hidden-md hidden-lg">
+    <ul>
+        <li>
+            <a href="home">
+                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home
+            </a>
+        </li>
+        <li>
+            <a href="store">
+                <span class="glyphicon glyphicon-book" aria-hidden="true"></span> Store
+            </a>
+        </li>
+        <li>
+            <a href="created">
+                <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>Created
+            </a>
+        </li>
+        <li>
+            <a href="aboutme">
+                <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>About
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+<div class="card main_body center-block">
+
+    <!--顶部导航栏-->
+    <div class="headnav">
+        <!--非小屏幕导航-->
+        <ul class="navmenu row">
+            <li class="col-sm-3 active">
+                <a href="home">
+                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home
+                </a>
+            </li>
+            <li class="col-sm-3">
+                <a href="store">
+                    <span class="glyphicon glyphicon-book" aria-hidden="true"></span> Store
+                </a>
+            </li>
+            <li class="col-sm-3">
+                <a href="created">
+                    <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>Created
+                </a>
+            </li>
+            <li class="col-sm-3">
+                <a href="aboutme">
+                    <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>About
+                </a>
+            </li>
+        </ul>
+
+        <div id="logo" class="logo text-center"><img src="{$DIR_IMG}/logo.png" alt=""></div>
+
+        <div class="menusec row">
+            <div class="col-sm-7 col-sm-offset-2 col-xs-7 col-xs-offset-1" style="height: 100%;padding: 0;">
+                <h4>{$username}</h4>
+            </div>
+            <div class="col-sm-2 col-xs-4" style="height: 100%;padding: 0;">
+                <a href="login">
+                    <img src="{$DIR_IMG}/avatar.jpg" class="userthumb img-circle">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0">
+            <img src="{$DIR_IMG}/bcover.jpg" alt="..." class="img-thumbnail" style="margin: 10px;">
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-0">
+            <div class="input-group">
+                <span class="input-group-addon">the Title</span>
+                <input type="text" class="form-control" placeholder="input the book's title"
+                       aria-describedby="sizing-addon1">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">the Author</span>
+                <input type="text" class="form-control" placeholder="input the book's author"
+                       aria-describedby="sizing-addon1">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">Introduction</span>
+                <input type="text" class="form-control" placeholder="" aria-describedby="sizing-addon1">
+            </div>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Uploading the book cover">
+                <span class="input-group-btn">
+        <button class="btn btn-default" type="button">load</button>
+      </span>
+            </div>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1" style="margin-top: 20px; margin-bottom: 20px;">
+            <textarea class="form-control" rows="3" placeholder="content"></textarea>
+            <button type="button" class="btn btn-primary col-xs-4 col-xs-offset-1" style="margin-top: 20px;font-size: 2em;">Save</button>
+            <button type="button" class="btn btn-success col-xs-4 col-xs-offset-2" style="margin-top: 20px;font-size: 2em;">Publish</button>
+        </div>
+    </div>
+
+
+</div>
+
+
+<footer class="footer container-fluid navbar-fixed-bottom">
+    <span>&copy; DZQ | <a href="home">Home</a></span>
+</footer>
+
+
+<script src="{$DIR_JS}/jquery-3.2.1.js"></script>
+<script src="{$DIR_JS}/bootstrap.js"></script>
+<script>
+
+$(document).ready(function () {
+    var Bmenu = $('.mobile-nav'),
+        Blogo = $('.logo'),
+        isopen = false;
+
+    Bmenu.click(function(){menushow();});
+    Blogo.click(function(){menushow();});
+    function menushow() {
+        if($(window).width()<768){
+            if(isopen){
+                Bmenu.width('0px');
+                isopen = false;
+            }else {
+                Bmenu.width('100%');
+                isopen = true;
+            }
+        }
+    }
+});
+</script>
+</body>
+</html>

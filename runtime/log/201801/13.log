@@ -1,0 +1,398 @@
+---------------------------------------------------------------
+[ 2018-01-13T23:49:52+08:00 ] 0.0.0.0 GET /BookHouse/public/home
+[ info ] localhost/BookHouse/public/home [运行时间：0.077543s][吞吐率：12.90req/s] [内存消耗：2,136.20kb] [文件加载：42]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515786024,1515786856,1515842982',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\IDE\xampp\htdocs\BookHouse\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\IDE\xampp\htdocs\BookHouse\public/../application/index\view\index\home.html [ array (
+  0 => 'DIR_CSS',
+  1 => 'DIR_JS',
+  2 => 'DIR_FONT',
+  3 => 'DIR_IMG',
+  4 => 'username',
+  5 => 'bookname',
+  6 => 'authorname',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:49:52+08:00 ] 0.0.0.0 GET /BookHouse/public/static/js/plug-in.min.js
+[ info ] localhost/BookHouse/public/static/js/plug-in.min.js [运行时间：0.019912s][吞吐率：50.22req/s] [内存消耗：934.69kb] [文件加载：28]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:49:52+08:00 ] 0.0.0.0 GET /BookHouse/public/static/js/plug-in.min.js
+[ info ] localhost/BookHouse/public/static/js/plug-in.min.js [运行时间：0.018777s][吞吐率：53.26req/s] [内存消耗：934.69kb] [文件加载：28]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:50:01+08:00 ] 0.0.0.0 GET /BookHouse/public/login
+[ info ] localhost/BookHouse/public/login [运行时间：0.022693s][吞吐率：44.07req/s] [内存消耗：1,366.94kb] [文件加载：35]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BookHouse/public/home',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0lj7iu0q88ogk1n02lir2rjdq7; Hm_lvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515786024,1515786856,1515842982,1515858594; Hm_lpvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515858594',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\IDE\xampp\htdocs\BookHouse\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\IDE\xampp\htdocs\BookHouse\public/../application/index\view\index\login.html [ array (
+  0 => 'DIR_CSS',
+  1 => 'DIR_JS',
+  2 => 'DIR_FONT',
+  3 => 'DIR_IMG',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:50:07+08:00 ] 0.0.0.0 POST /BookHouse/public/admin
+[ info ] localhost/BookHouse/public/admin [运行时间：0.025273s][吞吐率：39.57req/s] [内存消耗：1,283.02kb] [文件加载：32]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '22',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BookHouse/public/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0lj7iu0q88ogk1n02lir2rjdq7; Hm_lvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515786024,1515786856,1515842982,1515858594; Hm_lpvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515858602',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'dzq',
+  'password' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\IDE\xampp\htdocs\BookHouse\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:50:08+08:00 ] 0.0.0.0 GET /BookHouse/public/login
+[ info ] localhost/BookHouse/public/login [运行时间：0.017220s][吞吐率：58.07req/s] [内存消耗：1,235.72kb] [文件加载：33]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BookHouse/public/home',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0lj7iu0q88ogk1n02lir2rjdq7; Hm_lvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515786024,1515786856,1515842982,1515858594; Hm_lpvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515858608',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\IDE\xampp\htdocs\BookHouse\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\IDE\xampp\htdocs\BookHouse\public/../application/index\view\index\login.html [ array (
+  0 => 'DIR_CSS',
+  1 => 'DIR_JS',
+  2 => 'DIR_FONT',
+  3 => 'DIR_IMG',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:50:12+08:00 ] 0.0.0.0 POST /BookHouse/public/admin
+[ info ] localhost/BookHouse/public/admin [运行时间：0.042018s][吞吐率：23.80req/s] [内存消耗：2,021.79kb] [文件加载：41]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BookHouse/public/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0lj7iu0q88ogk1n02lir2rjdq7; Hm_lvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515786024,1515786856,1515842982,1515858594; Hm_lpvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515858609',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'dzq',
+  'password' => '16',
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\IDE\xampp\htdocs\BookHouse\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\IDE\xampp\htdocs\BookHouse\public/../application/admin\view\index\loginmes.html [ array (
+  0 => 'message',
+  1 => 'reURL',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:50:13+08:00 ] 0.0.0.0 GET /BookHouse/public/home
+[ info ] localhost/BookHouse/public/home [运行时间：0.034825s][吞吐率：28.71req/s] [内存消耗：1,970.56kb] [文件加载：40]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BookHouse/public/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0lj7iu0q88ogk1n02lir2rjdq7; Hm_lvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515786024,1515786856,1515842982,1515858594; Hm_lpvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515858613',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\IDE\xampp\htdocs\BookHouse\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\IDE\xampp\htdocs\BookHouse\public/../application/index\view\index\home.html [ array (
+  0 => 'DIR_CSS',
+  1 => 'DIR_JS',
+  2 => 'DIR_FONT',
+  3 => 'DIR_IMG',
+  4 => 'username',
+  5 => 'bookname',
+  6 => 'authorname',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:50:14+08:00 ] 0.0.0.0 GET /BookHouse/public/static/js/plug-in.min.js
+[ info ] localhost/BookHouse/public/static/js/plug-in.min.js [运行时间：0.013644s][吞吐率：73.29req/s] [内存消耗：934.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:50:14+08:00 ] 0.0.0.0 GET /BookHouse/public/static/js/plug-in.min.js
+[ info ] localhost/BookHouse/public/static/js/plug-in.min.js [运行时间：0.013214s][吞吐率：75.68req/s] [内存消耗：934.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:50:19+08:00 ] 0.0.0.0 GET /BookHouse/public/store
+[ info ] localhost/BookHouse/public/store [运行时间：0.038263s][吞吐率：26.13req/s] [内存消耗：2,088.47kb] [文件加载：41]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'store',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BookHouse/public/home',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0lj7iu0q88ogk1n02lir2rjdq7; Hm_lvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515786024,1515786856,1515842982,1515858594; Hm_lpvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515858615',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->store[ D:\IDE\xampp\htdocs\BookHouse\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\IDE\xampp\htdocs\BookHouse\public/../application/index\view\index\store.html [ array (
+  0 => 'DIR_CSS',
+  1 => 'DIR_JS',
+  2 => 'DIR_FONT',
+  3 => 'DIR_IMG',
+  4 => 'bookname',
+  5 => 'authorname',
+  6 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:50:21+08:00 ] 0.0.0.0 GET /BookHouse/public/created
+[ info ] localhost/BookHouse/public/created [运行时间：0.019885s][吞吐率：50.29req/s] [内存消耗：1,379.33kb] [文件加载：35]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'created',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BookHouse/public/store',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0lj7iu0q88ogk1n02lir2rjdq7; Hm_lvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515786024,1515786856,1515842982,1515858594; Hm_lpvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515858620',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->created[ D:\IDE\xampp\htdocs\BookHouse\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\IDE\xampp\htdocs\BookHouse\public/../application/index\view\index\created.html [ array (
+  0 => 'DIR_CSS',
+  1 => 'DIR_JS',
+  2 => 'DIR_FONT',
+  3 => 'DIR_IMG',
+  4 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:50:23+08:00 ] 0.0.0.0 GET /BookHouse/public/aboutme
+[ info ] localhost/BookHouse/public/aboutme [运行时间：0.019217s][吞吐率：52.04req/s] [内存消耗：1,379.35kb] [文件加载：35]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'about',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BookHouse/public/created',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0lj7iu0q88ogk1n02lir2rjdq7; Hm_lvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515786024,1515786856,1515842982,1515858594; Hm_lpvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515858621',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->about[ D:\IDE\xampp\htdocs\BookHouse\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\IDE\xampp\htdocs\BookHouse\public/../application/index\view\index\aboutme.html [ array (
+  0 => 'DIR_CSS',
+  1 => 'DIR_JS',
+  2 => 'DIR_FONT',
+  3 => 'DIR_IMG',
+  4 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:50:25+08:00 ] 0.0.0.0 GET /BookHouse/public/home
+[ info ] localhost/BookHouse/public/home [运行时间：0.029877s][吞吐率：33.47req/s] [内存消耗：1,970.59kb] [文件加载：40]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BookHouse/public/aboutme',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0lj7iu0q88ogk1n02lir2rjdq7; Hm_lvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515786024,1515786856,1515842982,1515858594; Hm_lpvt_0bd5902d44e80b78cb1cd01ca0e85f4a=1515858624',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\IDE\xampp\htdocs\BookHouse\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\IDE\xampp\htdocs\BookHouse\public/../application/index\view\index\home.html [ array (
+  0 => 'DIR_CSS',
+  1 => 'DIR_JS',
+  2 => 'DIR_FONT',
+  3 => 'DIR_IMG',
+  4 => 'username',
+  5 => 'bookname',
+  6 => 'authorname',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-13T23:50:25+08:00 ] 0.0.0.0 GET /BookHouse/public/static/js/plug-in.min.js
+[ info ] localhost/BookHouse/public/static/js/plug-in.min.js [运行时间：0.019133s][吞吐率：52.27req/s] [内存消耗：934.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\IDE\xampp\htdocs\BookHouse\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
